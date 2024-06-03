@@ -1,0 +1,337 @@
+body {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    max-width: 100%;
+}
+
+aside {
+    
+    color: white;
+    padding: 20px;
+    height: 100%;
+    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.nav-item{
+    text-decoration: none;
+    color: #333;
+    text-decoration-line: overline;
+    width: 5rem;
+
+    
+}
+.nav-item:hover{
+    transform: scale(0.95);
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+#ana_baslik {
+    font-size: 3.1rem;
+    color: #333;
+    text-decoration: none;
+    
+    
+}
+
+#about {
+    margin-top: 50px;
+    text-align: center;
+    font-style: normal;
+    
+}
+#aboutp{
+    
+    text-align: left;
+    font-family: "Space Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 3rem;
+    color: rgb(0, 0, 0);
+    width: 78%;
+    text-align: center;
+    
+
+}
+
+#lg{
+    width: 10%;
+    transition: transform 0.9s ease;
+} 
+#lg:hover{
+    
+    transform: rotate(360deg);
+    
+
+} 
+    
+
+
+
+a:visited {
+    color: inherit;
+}
+
+#abc {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+    
+
+
+#contactf{
+    padding: 4rem;
+    width: 40%;
+    background-color: #ffffff;
+    border: #000000;
+    border-radius: 5%;
+    
+
+}
+/*
+footer {
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 5%;
+    border-top:  5px  dashed  #1b1f23 ; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0; 
+    padding: 10px 0; 
+   
+}*/
+
+* {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.fade-in {
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.slide-in-left {
+    animation: slideInFromLeft 1.7s ease-out;
+}
+
+.slide-in-right {
+    animation: slideInFromRight 1.7s ease-out;
+}
+
+.slide-in-bottom {
+    animation: slideInFromBottom 2s ease-out;
+}
+
+.logo-container {
+    position: relative;
+    text-align: center;
+    margin-top: 7%;
+
+    
+    
+
+}
+
+.logo-container img {
+    vertical-align: middle;
+    width: 3.7%;
+
+
+}
+.logo-container img:hover{
+    transform: scale(1.2);
+    
+
+}
+input[type="text"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    border-radius: 19px;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #797979;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    border-radius: 19px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.send {
+    text-align: right;
+    border-radius: 19px;
+    
+   
+
+    }
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 19px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.github-container {
+    position: relative;
+    text-align: center;
+    background-color:#ffffff;
+    padding: 10px;
+}
+
+@media (min-width:576px){
+    .container {
+    max-width: 540px;
+  }
+  .logo-container img {
+    vertical-align: middle;
+    width: 7%;
+
+}
+.logo-container {
+    position: relative;
+    text-align: center;
+    margin-top: 17%;
+    
+
+}
+
+
+
+
+}
+@media (max-width:768px){
+    .container{
+        max-width: 720px;
+      
+    }
+    .logo-container img {
+        vertical-align: middle;
+        width: 7%;
+    
+    }
+    .logo-container {
+        position: relative;
+        text-align: center;
+        margin-top: 17%;
+        
+    
+    }
+    form{
+        margin-top: 3rem;
+    }
+
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    
+    }
+    
+    .logo-container img {
+        vertical-align: middle;
+        width: 5%;
+    
+    }
+    .logo-container {
+        position: relative;
+        text-align: center;
+        margin-top: 5%;
+        
+    
+    }
+    
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+    .logo-container img {
+        vertical-align: middle;
+        width: 4%;
+    
+    }
+    .logo-container {
+        position: relative;
+        text-align: center;
+        margin-top: 14%;
+        
+    
+    }
+    
+}
+
+
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 16;
+    }
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
